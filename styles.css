@@ -25,7 +25,7 @@ body.switch {
 
 header {
     margin: 0 auto 2em auto;
-}
+ }
 
 #banner {
     position: relative;
@@ -119,3 +119,29 @@ button.switch:hover {
     background-color: #333;
     color: rgb(235, 235, 235)
 }
+#banner img {
+    width: 100%;
+    height: auto;
+}
+#firstAi 
+{
+    display: block;
+    position: relative;
+    bottom: 300px;
+    left: 1100px;
+}
+#secondAi
+{
+    display: block;
+    position: relative;
+    bottom: 500px;
+    left: 60px; 
+}
+.nameHeader {
+  display: block;
+  text-align: center;
+}
+main {
+    margin-top: -400px;
+  }
+  
