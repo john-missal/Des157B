@@ -4,6 +4,7 @@
     const button = document.querySelector('button');
     const body = document.querySelector('body');
     const banner = document.querySelector('#banner');
+    const bannerImage = banner.querySelector('img');
     const sections = document.querySelectorAll('section')
     let mode = 'dark';
 
@@ -15,6 +16,7 @@
             for (const section of sections) {
                 section.className = 'switch';
             }
+            bannerImage.src = 'LP.png';
             mode = 'light';
         } else {
             body.removeAttribute('class');
@@ -23,6 +25,7 @@
             for (const section of sections) {
                 section.removeAttribute('class');
             }
+            bannerImage.src = 'DP.png';
             mode = 'dark'
         }
     })
