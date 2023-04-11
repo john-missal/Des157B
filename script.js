@@ -16,7 +16,7 @@
             for (const section of sections) {
                 section.className = 'switch';
             }
-            bannerImage.src = 'LP.png';
+            bannerImage.src = 'images/LP.png';
             mode = 'light';
         } else {
             body.removeAttribute('class');
@@ -25,7 +25,7 @@
             for (const section of sections) {
                 section.removeAttribute('class');
             }
-            bannerImage.src = 'DP.png';
+            bannerImage.src = 'images/DP.png';
             mode = 'dark'
         }
     })
